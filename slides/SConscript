@@ -1,0 +1,6 @@
+# -*- python -*-
+Import('env')
+
+tdd = env.Latex('rust-intro.tex')
+env.Default(tdd)
+
